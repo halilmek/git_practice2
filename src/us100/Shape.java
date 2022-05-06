@@ -21,9 +21,9 @@ public abstract class Shape {
     public void setName(String name) {
 
         int count = 0;
-        for (ArrayList each : shapesList) {
+        for (String each : shapesList) {
 
-            if (each.equalsIgnoreCase(name)) {
+            if (each.toString().equalsIgnoreCase(name)) {
                 count++;
 
             }
