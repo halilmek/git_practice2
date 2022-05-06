@@ -42,11 +42,11 @@ public class Sphere extends Shape implements Volume{
 
     @Override
     public String toString() {
-        return "Sphere{" +
-                "radius=" + radius +
-                "area =" + area() +
-                "perimeter =" + perimeter() +
-                "volume = "+ volume()+
-                '}';
+        return "\n\n\nSphere{" +
+                "\nradius=" + radius +
+                "\narea =" + area() +
+                "\nperimeter =" + perimeter() +
+                "\nvolume = "+ volume()+
+                "\n}\n\n\n";
     }
 }

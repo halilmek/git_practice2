@@ -21,5 +21,12 @@ public class Square extends Shape{
         return 4* side;
     }
 
-
+    @Override
+    public String toString() {
+        return "\n\n\nSquare{" +
+                "\nside=" + side +
+                "\narea = "+ area()+
+                "\nperimeter = "+ perimeter()+
+                "\n}\n\n";
+    }
 }

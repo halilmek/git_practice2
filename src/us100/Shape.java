@@ -21,9 +21,9 @@ public abstract class Shape {
     public void setName(String name) {
 
         int count = 0;
-        for (int i = 0; i < Shape.shapesList.size(); i++) {
+        for (ArrayList each : shapesList) {
 
-            if (shapesList.get(i).equalsIgnoreCase(name)) {
+            if (each.equalsIgnoreCase(name)) {
                 count++;
 
             }
@@ -51,8 +51,8 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName()+ "{" +
-                "name='" + name + '\'' +
-                '}';
+        return "\n\n\n"+ getClass().getSimpleName()+ "{" +
+                "\nname='" + name + '\'' +
+                "\n}\n\n\n";
     }
 }
