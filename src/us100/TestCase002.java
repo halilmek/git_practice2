@@ -1,6 +1,8 @@
 package us100;
 
 import java.util.Arrays;
+//kolla kendini neler oldu az önce
+
 
 public class TestCase002 {
 
