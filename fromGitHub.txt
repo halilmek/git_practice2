@@ -1,0 +1,3 @@
+neler yazdim da gitti hepsi...
+this is not something from intellij only from github
+yani remote repository
