@@ -3,6 +3,9 @@ package us100;
 import java.util.Arrays;
 //kolla kendini neler oldu az önce
 
+// 1.58.00 de kaldik
+
+
 
 public class TestCase002 {
 
